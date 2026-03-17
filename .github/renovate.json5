@@ -4,6 +4,7 @@
     "config:recommended",
     ":maintainLockFilesMonthly",
     "docker:disable",
+    "helpers:pinGitHubActionDigestsToSemver",
   ],
   packageRules: [
     {
